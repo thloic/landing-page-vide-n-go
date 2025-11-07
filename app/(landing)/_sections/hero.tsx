@@ -44,7 +44,7 @@ const HeroLeft = () => {
                 className="space-y-4 md:space-y-6 select-none"
             >
                 <motion.h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight md:leading-[1.1] text-gray-900">
-                    Recyclez <br />facilement avec <br /> <span className="text-[#6841DA]">Vide n go</span>
+                    Recyclez <br />facilement avec <br /> <span className="text-[#30808E]">Vide n go</span>
                 </motion.h1>
                 <motion.p className="font-light text-base sm:text-lg md:text-xl max-w-md lg:max-w-lg mx-auto lg:mx-0 text-gray-700">
                     Simplifiez le recyclage, gagnez du temps et agissez pour la planète — tout depuis votre téléphone.
@@ -116,7 +116,7 @@ const HeroDL = ({ badgeVariants }: HeroDLProps) => {
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }}>
                         <Image
                             src={"/appstore-badge.svg"}
-                            alt="AppStore Badge"
+                            alt="AppStore Badge" 
                             width={140}
                             height={50}
                             className="w-[120px] sm:w-[140px] h-auto"

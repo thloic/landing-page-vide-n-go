@@ -7,7 +7,7 @@ interface LogoProps {
 export const Logo = ({ className }: LogoProps) => {
   return (
     <Image
-      src={"/logo.png"}
+      src={"/LOGO3.png"}
       alt="Mediacy"
       width={36}
       height={36}

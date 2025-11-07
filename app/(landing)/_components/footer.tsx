@@ -14,13 +14,13 @@ export default function Footer() {
           {/* Logo + nom */}
           <div className="flex items-center gap-3 sm:gap-4"> {/* Gap ajusté */}
             <motion.div
-              className="w-12 h-12 sm:w-14 sm:h-14 bg-[#6841DA] rounded-full flex items-center justify-center shadow-md flex-shrink-0" 
+              className="w-12 h-12 sm:w-14 sm:h-14 bg-[#30808E] rounded-full flex items-center justify-center shadow-md flex-shrink-0" 
               whileHover={{ scale: 1.1, rotate: 10 }} // Animation de hover
               transition={{ duration: 0.3 }}
             >
               <Smartphone className="text-white w-6 h-6 sm:w-7 sm:h-7" /> {/* Taille de l'icône ajustée */}
             </motion.div>
-            <span className="text-xl sm:text-2xl font-bold text-[#6841DA] tracking-wide"> {/* Couleur du texte ajustée */}
+            <span className="text-xl sm:text-2xl font-bold text-[#30808E] tracking-wide"> {/* Couleur du texte ajustée */}
               Vide N go
             </span>
           </div>
@@ -51,11 +51,11 @@ export default function Footer() {
           </nav>
         </div>
 
-        {/* Partie inférieure */}
+        {/* Partie inférieure */} 
         <div className="mt-6 sm:mt-8 text-center text-xs sm:text-sm text-gray-500"> {/* Margins et couleurs ajustées */}
           <p>
-            © {new Date().getFullYear()}{' '}
-            <span className="font-semibold text-[#6841DA]">Vide N go</span>. Tous droits réservés. {/* Couleur du texte ajustée */}
+            © {new Date().getFullYear()}{' '} 
+            <span className="font-semibold text-[#30808E]">Vide N go</span>. Tous droits réservés. {/* Couleur du texte ajustée */}
           </p>
         </div>
       </div>

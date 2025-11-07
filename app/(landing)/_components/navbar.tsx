@@ -33,7 +33,7 @@ export const Navbar = () => {
           </Link>
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="p-2 text-gray-700 hover:text-[#6841DA] transition-colors duration-200"
+            className="p-2 text-gray-700 hover:text-[#30808E] transition-colors duration-200"
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
