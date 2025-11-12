@@ -28,7 +28,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
-              La plateforme de vide-greniers en ligne qui simplifie la vente et l'achat d'objets d'occasion entre particuliers.
+              La plateforme de vide-greniers en ligne qui simplifie la vente et l&apos;achat d&apos;objets d&apos;occasion entre particuliers.
             </p>
             {/* Réseaux sociaux */}
             <div className="flex gap-3 pt-2">
@@ -61,9 +61,8 @@ export default function Footer() {
               {[
                 { label: 'Accueil', href: '/' },
                 { label: 'Comment ça marche', href: '#fonctionnalites' },
-                
                 { label: 'Fonctionnalite', href: '#fonctionnalites' },
-                { label: '  Pourquoi-nous?', href: '#pourquoi' },
+                { label: 'Pourquoi-nous?', href: '#pourquoi' },
               ].map((link, index) => (
                 <li key={index}>
                   <motion.a
@@ -89,7 +88,6 @@ export default function Footer() {
                 { label: 'CGU / CGV', href: '#' },
                 { label: 'Politique de confidentialité', href: '#' },
                 { label: 'Politique des cookies', href: '#' },
-                
               ].map((link, index) => (
                 <li key={index}>
                   <motion.a
@@ -128,16 +126,6 @@ export default function Footer() {
                   </a>
                 </div>
               </li>
-              {/* <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-[#30808E] flex-shrink-0 mt-0.5" />
-                <div>
-                  <p className="text-xs text-gray-500 mb-1">Adresse</p>
-                  <p className="text-sm text-gray-700 leading-relaxed">
-                    123 Rue du Commerce<br />
-                    75001 Paris, France
-                  </p>
-                </div>
-              </li> */}
             </ul>
           </div>
         </div>
@@ -159,18 +147,9 @@ export default function Footer() {
                 <div className="w-10 h-7 bg-white rounded border border-gray-200 flex items-center justify-center text-[9px] font-bold text-gray-600 shadow-sm">
                   Stripe
                 </div>
-                
               </div>
             </div>
           </div>
-
-          {/* Ligne d'information supplémentaire */}
-          {/* <div className="mt-4 text-center">
-            <p className="text-xs text-gray-500">
-              VIDE N GO - SIRET: 123 456 789 00012 | TVA: FR12345678901 | 
-              <span className="ml-1">Hébergé par OVH</span>
-            </p>
-          </div> */}
         </div>
       </div>
     </footer>
