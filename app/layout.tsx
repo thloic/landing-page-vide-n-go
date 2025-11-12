@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Mediacy",
+  title: "Vide-n-go",
 };
 
 export default function RootLayout({

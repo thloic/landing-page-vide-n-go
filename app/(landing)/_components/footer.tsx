@@ -1,62 +1,176 @@
 'use client';
 
-import { Smartphone } from 'lucide-react';
-import { motion } from 'framer-motion'; // Importation de Framer Motion
+import { Smartphone, Mail, MapPin, Phone, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="bg-[#F8FAFC] text-gray-700 border-t border-gray-100 py-8 md:py-10 lg:py-12"> {/* Couleur de fond plus douce et padding ajusté */}
-      <div className="max-w-screen-xl mx-auto px-4 md:px-6"> {/* Max width ajustée */}
-
-        {/* Partie supérieure : logo + liens */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-6 sm:gap-10 border-b border-gray-200 pb-6 sm:pb-8 mb-6 sm:mb-8"> {/* Couleurs de bordure et padding ajustés */}
-
-          {/* Logo + nom */}
-          <div className="flex items-center gap-3 sm:gap-4"> {/* Gap ajusté */}
-            <motion.div
-              className="w-12 h-12 sm:w-14 sm:h-14 bg-[#30808E] rounded-full flex items-center justify-center shadow-md flex-shrink-0" 
-              whileHover={{ scale: 1.1, rotate: 10 }} // Animation de hover
-              transition={{ duration: 0.3 }}
-            >
-              <Smartphone className="text-white w-6 h-6 sm:w-7 sm:h-7" /> {/* Taille de l'icône ajustée */}
-            </motion.div>
-            <span className="text-xl sm:text-2xl font-bold text-[#30808E] tracking-wide"> {/* Couleur du texte ajustée */}
-              Vide N go
-            </span>
+    <footer className="bg-gradient-to-b from-[#F8FAFC] to-[#EFF6F8] text-gray-700 border-t border-gray-200">
+      <div className="max-w-screen-xl mx-auto px-4 md:px-6 py-12 md:py-16">
+        
+        {/* Contenu principal du footer */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 mb-10">
+          
+          {/* Colonne 1: À propos */}
+          <div className="space-y-4">
+            <div className="flex items-center gap-3">
+              <motion.div
+                className="w-12 h-12 bg-[#30808E] rounded-full flex items-center justify-center shadow-md"
+                whileHover={{ scale: 1.1, rotate: 10 }}
+                transition={{ duration: 0.3 }}
+              >
+                <Smartphone className="text-white w-6 h-6" />
+              </motion.div>
+              <span className="text-xl font-bold text-[#30808E] tracking-wide">
+                Vide N go
+              </span>
+            </div>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              La plateforme de vide-greniers en ligne qui simplifie la vente et l'achat d'objets d'occasion entre particuliers.
+            </p>
+            {/* Réseaux sociaux */}
+            <div className="flex gap-3 pt-2">
+              {[
+                { icon: Facebook, href: '#', label: 'Facebook' },
+                { icon: Twitter, href: '#', label: 'Twitter' },
+                { icon: Instagram, href: '#', label: 'Instagram' },
+                { icon: Linkedin, href: '#', label: 'LinkedIn' },
+              ].map((social, index) => (
+                <motion.a
+                  key={index}
+                  href={social.href}
+                  aria-label={social.label}
+                  className="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-[#30808E] hover:text-white hover:border-[#30808E] transition-all duration-300 shadow-sm"
+                  whileHover={{ scale: 1.1, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <social.icon className="w-4 h-4" />
+                </motion.a>
+              ))}
+            </div>
           </div>
 
-          {/* Liens */}
-          <nav className="flex flex-wrap justify-center gap-4 sm:gap-6 text-sm md:text-base font-medium text-center"> {/* Gap et taille de texte ajustés */}
-            {[
-              { label: 'Mentions légales', href: '#' },
-              { label: 'Politique de confidentialité', href: '#' },
-              { label: 'Contact', href: '#' },
-            ].map((link, index) => (
-              <motion.a
-                key={index}
-                href={link.href}
-                className="relative group text-gray-600 hover:text-[#6841DA] transition-colors duration-200"
-                whileHover={{ y: -2 }} // Animation de hover subtile
-                transition={{ duration: 0.2 }}
-              >
-                {link.label}
-                <motion.span
-                  className="absolute inset-x-0 bottom-0 h-0.5 bg-[#6841DA] origin-left"
-                  initial={{ scaleX: 0 }}
-                  whileHover={{ scaleX: 1 }}
-                  transition={{ duration: 0.3 }}
-                />
-              </motion.a>
-            ))}
-          </nav>
+          {/* Colonne 2: Navigation rapide */}
+          <div>
+            <h3 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-[#30808E] inline-block">
+              Navigation
+            </h3>
+            <ul className="space-y-3">
+              {[
+                { label: 'Accueil', href: '/' },
+                { label: 'Comment ça marche', href: '#fonctionnalites' },
+                
+                { label: 'Fonctionnalite', href: '#fonctionnalites' },
+                { label: '  Pourquoi-nous?', href: '#pourquoi' },
+              ].map((link, index) => (
+                <li key={index}>
+                  <motion.a
+                    href={link.href}
+                    className="text-sm text-gray-600 hover:text-[#6841DA] hover:pl-2 transition-all duration-200 inline-block"
+                    whileHover={{ x: 5 }}
+                  >
+                    {link.label}
+                  </motion.a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Colonne 3: Informations légales */}
+          <div>
+            <h3 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-[#30808E] inline-block">
+              Légal
+            </h3>
+            <ul className="space-y-3">
+              {[
+                { label: 'Mentions légales', href: '#' },
+                { label: 'CGU / CGV', href: '#' },
+                { label: 'Politique de confidentialité', href: '#' },
+                { label: 'Politique des cookies', href: '#' },
+                
+              ].map((link, index) => (
+                <li key={index}>
+                  <motion.a
+                    href={link.href}
+                    className="text-sm text-gray-600 hover:text-[#6841DA] hover:pl-2 transition-all duration-200 inline-block"
+                    whileHover={{ x: 5 }}
+                  >
+                    {link.label}
+                  </motion.a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Colonne 4: Contact */}
+          <div>
+            <h3 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-[#30808E] inline-block">
+              Nous contacter
+            </h3>
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <Mail className="w-5 h-5 text-[#30808E] flex-shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-xs text-gray-500 mb-1">Email</p>
+                  <a href="mailto:contact@vide-and-go.com" className="text-sm text-gray-700 hover:text-[#6841DA] transition-colors">
+                    contact@vide-and-go.com
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <Phone className="w-5 h-5 text-[#30808E] flex-shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-xs text-gray-500 mb-1">Téléphone</p>
+                  <a href="tel:+33123456789" className="text-sm text-gray-700 hover:text-[#6841DA] transition-colors">
+                    +33 6 60 08 17 24
+                  </a>
+                </div>
+              </li>
+              {/* <li className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-[#30808E] flex-shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-xs text-gray-500 mb-1">Adresse</p>
+                  <p className="text-sm text-gray-700 leading-relaxed">
+                    123 Rue du Commerce<br />
+                    75001 Paris, France
+                  </p>
+                </div>
+              </li> */}
+            </ul>
+          </div>
         </div>
 
-        {/* Partie inférieure */} 
-        <div className="mt-6 sm:mt-8 text-center text-xs sm:text-sm text-gray-500"> {/* Margins et couleurs ajustées */}
-          <p>
-            © {new Date().getFullYear()}{' '} 
-            <span className="font-semibold text-[#30808E]">Vide N go</span>. Tous droits réservés. {/* Couleur du texte ajustée */}
-          </p>
+        {/* Barre de séparation */}
+        <div className="border-t border-gray-300 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            {/* Copyright */}
+            <p className="text-sm text-gray-600 text-center md:text-left">
+              © {currentYear}{' '}
+              <span className="font-semibold text-[#30808E]">Vide N go</span>. 
+              Tous droits réservés.
+            </p>
+
+            {/* Badges de paiement / certification (optionnel) */}
+            <div className="flex items-center gap-4">
+              <span className="text-xs text-gray-500">Paiement sécurisé</span>
+              <div className="flex gap-2">
+                <div className="w-10 h-7 bg-white rounded border border-gray-200 flex items-center justify-center text-[9px] font-bold text-gray-600 shadow-sm">
+                  Stripe
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          {/* Ligne d'information supplémentaire */}
+          {/* <div className="mt-4 text-center">
+            <p className="text-xs text-gray-500">
+              VIDE N GO - SIRET: 123 456 789 00012 | TVA: FR12345678901 | 
+              <span className="ml-1">Hébergé par OVH</span>
+            </p>
+          </div> */}
         </div>
       </div>
     </footer>
