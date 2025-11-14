@@ -89,10 +89,10 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               {[
-                { label: 'Mentions légales', href: '/maintenance' },
-                { label: 'CGU / CGV', href: '/maintenance' },
-                { label: 'Politique de confidentialité', href: '/maintenance' },
-                { label: 'Politique des cookies', href: '/maintenance' },
+                { label: 'Mentions légales', href: '/mentions-legal' },
+                { label: 'CGU / CGV', href: '/cgu-cgv' },
+                { label: 'Politique de confidentialité', href: '/confidentialite' },
+                { label: 'Politique des cookies', href: '/cookies' },
               ].map((link, index) => (
                 <li key={index}>
                   <motion.a
