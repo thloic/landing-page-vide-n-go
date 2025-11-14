@@ -18,9 +18,7 @@ export default function MentionsLegales() {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">
             Mentions Légales
           </h1>
-          <p className="text-white/90 text-sm md:text-base">
-            Dernière mise à jour : 15 novembre 2024
-          </p>
+          
         </div>
       </div>
 
