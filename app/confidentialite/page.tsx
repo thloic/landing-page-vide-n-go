@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { ArrowLeft, Shield, Database, Clock, Users, Lock, Cookie, FileText, Bell } from 'lucide-react';
 
