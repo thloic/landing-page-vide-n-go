@@ -65,7 +65,7 @@ export default function CGUCGV() {
             </div>
           </section>
 
-          {/* Section 3 : Utilisation de l'application */}
+          {/* Section 3 : Utilisation de l&apos;application */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
               <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">

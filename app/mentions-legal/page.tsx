@@ -12,7 +12,7 @@ export default function MentionsLegales() {
             className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            Retour à l'accueil
+            Retour à l&apos;accueil
           </a>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">
             Mentions Légales
@@ -34,14 +34,14 @@ export default function MentionsLegales() {
                 <Building2 className="w-6 h-6 text-[#6841DA]" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900">Éditeur de l'application</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Éditeur de l&apos;application</h2>
               </div>
             </div>
             <div className="space-y-3 text-gray-700 ml-16">
               <p><span className="font-semibold text-gray-900">Dénomination sociale :</span> RENT UP</p>
               <p><span className="font-semibold text-gray-900">Forme juridique :</span> SAS au capital social de 1 000 euros</p>
               <p><span className="font-semibold text-gray-900">Siège social :</span> 35B rue Gustave Delory, 59000 Lille</p>
-              <p><span className="font-semibold text-gray-900">Numéro d'immatriculation :</span> 878 419 043</p>
+              <p><span className="font-semibold text-gray-900">Numéro d&apos;immatriculation :</span> 878 419 043</p>
               <p className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#6841DA]" />
                 <a href="mailto:contact@vide-and-go.com" className="text-[#6841DA] hover:underline font-medium">
@@ -91,7 +91,7 @@ export default function MentionsLegales() {
             <div className="text-gray-700 leading-relaxed ml-16">
               <p>
                 L'ensemble des contenus (textes, images, logos, marque, algorithme, conception, etc.) 
-                de l'application est protégé par le droit d'auteur et la propriété intellectuelle. 
+                de l&apos;application est protégé par le droit d&apos;auteur et la propriété intellectuelle. 
                 Toute reproduction ou représentation totale ou partielle sans autorisation écrite est interdite.
               </p>
             </div>
@@ -109,9 +109,9 @@ export default function MentionsLegales() {
             </div>
             <div className="text-gray-700 leading-relaxed ml-16">
               <p>
-                Les informations collectées via l'application sont traitées conformément à la 
-                politique de confidentialité et aux obligations RGPD : droits d'accès, de rectification 
-                et d'opposition.
+                Les informations collectées via l&apos;application sont traitées conformément à la 
+                politique de confidentialité et aux obligations RGPD : droits d&apos;accès, de rectification 
+                et d&apos;opposition.
               </p>
               <p className="mt-3">
                 Voir la politique complète en rubrique{' '}
@@ -122,20 +122,20 @@ export default function MentionsLegales() {
             </div>
           </section>
 
-          {/* Section 5 : Conditions d'utilisation */}
+          {/* Section 5 : Conditions d&apos;utilisation */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
               <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
                 <Scale className="w-6 h-6 text-[#6841DA]" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900">Conditions d'utilisation</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Conditions d&apos;utilisation</h2>
               </div>
             </div>
             <div className="text-gray-700 leading-relaxed ml-16">
               <p>
-                L'utilisation de l'application implique l'acceptation sans réserve des CGU disponibles 
-                sur l'application. En cas de services payants, les CGV sont également accessibles avant 
+                L'utilisation de l&apos;application implique l&apos;acceptation sans réserve des CGU disponibles 
+                sur l&apos;application. En cas de services payants, les CGV sont également accessibles avant 
                 tout engagement.
               </p>
             </div>
@@ -157,7 +157,7 @@ export default function MentionsLegales() {
                 fonctionnement. Chaque utilisateur peut gérer ses préférences dans les réglages.
               </p>
               <p className="mt-3">
-                Pour plus d'informations, consultez notre{' '}
+                Pour plus d&apos;informations, consultez notre{' '}
                 <a href="/cookies" className="text-[#6841DA] hover:underline font-semibold">
                   Politique des Cookies
                 </a>.
