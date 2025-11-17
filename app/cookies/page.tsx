@@ -6,7 +6,7 @@ export default function Cookies() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Header avec gradient */}
-      <div className="bg-gradient-to-r from-[#6841DA] to-[#8B5CF6] text-white py-12 md:py-16 lg:py-20">
+      <div className="bg-gradient-to-r from-[#30808E] to-[#4A9AA8] text-white py-12 md:py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 md:px-6">
           <a 
             href="/" 
@@ -28,8 +28,8 @@ export default function Cookies() {
           
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Cookie className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Cookie className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Utilisation des Cookies</h2>
@@ -47,7 +47,7 @@ export default function Cookies() {
               </p>
               <p>
                 Pour plus d&apos;informations sur vos données personnelles, consultez notre{' '}
-                <a href="/confidentialite" className="text-[#6841DA] hover:underline font-semibold">
+                <a href="/confidentialite" className="text-[#30808E] hover:underline font-semibold">
                   Politique de Confidentialité
                 </a>.
               </p>

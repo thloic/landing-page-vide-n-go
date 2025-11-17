@@ -5,7 +5,7 @@ export default function CGUCGV() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Header avec gradient */}
-      <div className="bg-gradient-to-r from-[#6841DA] to-[#8B5CF6] text-white py-12 md:py-16 lg:py-20">
+      <div className="bg-gradient-to-r from-[#30808E] to-[#30808E] text-white py-12 md:py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 md:px-6">
           <a 
             href="/" 
@@ -29,7 +29,7 @@ export default function CGUCGV() {
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
               <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <FileText className="w-6 h-6 text-[#6841DA]" />
+                <FileText className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">1. Objet</h2>
@@ -47,8 +47,8 @@ export default function CGUCGV() {
           {/* Section 2 : Accès et inscription */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <UserCheck className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <UserCheck className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">2. Accès et inscription</h2>
@@ -66,8 +66,8 @@ export default function CGUCGV() {
           {/* Section 3 : Utilisation de l&apos;application */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Smartphone className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Smartphone className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">3. Utilisation de l&apos;application</h2>
@@ -85,8 +85,8 @@ export default function CGUCGV() {
           {/* Section 4 : Services proposés */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <FileText className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <FileText className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">4. Services proposés</h2>
@@ -104,8 +104,8 @@ export default function CGUCGV() {
           {/* Section 5 : Paiement et abonnement */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <CreditCard className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <CreditCard className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">5. Paiement et abonnement</h2>
@@ -123,8 +123,8 @@ export default function CGUCGV() {
           {/* Section 6 : Propriété intellectuelle */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Copyright className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Copyright className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">6. Propriété intellectuelle</h2>
@@ -141,8 +141,8 @@ export default function CGUCGV() {
           {/* Section 7 : Responsabilité et garantie */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Shield className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Shield className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">7. Responsabilité et garantie</h2>
@@ -161,7 +161,7 @@ export default function CGUCGV() {
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
               <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <AlertCircle className="w-6 h-6 text-[#6841DA]" />
+                <AlertCircle className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">8. Modification des CGU</h2>
@@ -178,8 +178,8 @@ export default function CGUCGV() {
           {/* Section 9 : Droit applicable et litiges */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Scale className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Scale className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">9. Droit applicable et litiges</h2>
@@ -196,8 +196,8 @@ export default function CGUCGV() {
           {/* Section 10 : Contact */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Mail className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Mail className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">10. Contact</h2>
@@ -206,7 +206,7 @@ export default function CGUCGV() {
             <div className="text-gray-700 leading-relaxed ml-16">
               <p>
                 Pour toute question ou réclamation :{' '}
-                <a href="mailto:contact@vide-and-go.com" className="text-[#6841DA] hover:underline font-semibold">
+                <a href="mailto:contact@vide-and-go.com" className="text-[#30808E] hover:underline font-semibold">
                   contact@vide-and-go.com
                 </a>
               </p>

@@ -18,13 +18,13 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <motion.div
-                className="w-12 h-12 bg-[#6841DA] rounded-full flex items-center justify-center shadow-md"
+                className="w-12 h-12 bg-[#30808E] rounded-full flex items-center justify-center shadow-md"
                 whileHover={{ scale: 1.1, rotate: 10 }}
                 transition={{ duration: 0.3 }}
               >
                 <Smartphone className="text-white w-6 h-6" />
               </motion.div>
-              <span className="text-xl font-bold text-[#6841DA] tracking-wide">
+              <span className="text-xl font-bold text-[#30808E] tracking-wide">
                 Vide N go
               </span>
             </div>
@@ -59,7 +59,7 @@ export default function Footer() {
 
           {/* Colonne 2: Navigation rapide */}
           <div>
-            <h3 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-[#6841DA] inline-block">
+            <h3 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-[#30808E] inline-block">
               Navigation
             </h3>
             <ul className="space-y-3">
@@ -72,7 +72,7 @@ export default function Footer() {
                 <li key={index}>
                   <motion.a
                     href={link.href}
-                    className="text-sm text-gray-600 hover:text-[#6841DA] hover:pl-2 transition-all duration-200 inline-block"
+                    className="text-sm text-gray-600 hover:text-[#30808E] hover:pl-2 transition-all duration-200 inline-block"
                     whileHover={{ x: 5 }}
                   >
                     {link.label}
@@ -84,7 +84,7 @@ export default function Footer() {
 
           {/* Colonne 3: Informations légales */}
           <div>
-            <h3 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-[#6841DA] inline-block">
+            <h3 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-[#30808E] inline-block">
               Légal
             </h3>
             <ul className="space-y-3">
@@ -97,7 +97,7 @@ export default function Footer() {
                 <li key={index}>
                   <motion.a
                     href={link.href}
-                    className="text-sm text-gray-600 hover:text-[#6841DA] hover:pl-2 transition-all duration-200 inline-block"
+                    className="text-sm text-gray-600 hover:text-[#30808E] hover:pl-2 transition-all duration-200 inline-block"
                     whileHover={{ x: 5 }}
                   >
                     {link.label}
@@ -109,12 +109,12 @@ export default function Footer() {
 
           {/* Colonne 4: Contact */}
           <div>
-            <h3 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-[#6841DA] inline-block">
+            <h3 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-[#30808E] inline-block">
               Nous contacter
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-[#6841DA] flex-shrink-0 mt-0.5" />
+                <Mail className="w-5 h-5 text-[#30808E] flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="text-xs text-gray-500 mb-1">Email</p>
                   <a href="mailto:contact@vide-and-go.com" className="text-sm text-gray-700 hover:text-[#6841DA] transition-colors">
@@ -133,7 +133,7 @@ export default function Footer() {
             {/* Copyright */}
             <p className="text-sm text-gray-600 text-center md:text-left">
               © {currentYear}{' '}
-              <span className="font-semibold text-[#6841DA]">Vide N go</span>. 
+              <span className="font-semibold text-[#30808E]">Vide N go</span>. 
               Tous droits réservés.
             </p>
 

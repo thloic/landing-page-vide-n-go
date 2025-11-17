@@ -6,7 +6,7 @@ export default function MentionsLegales() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Header avec gradient */}
-      <div className="bg-gradient-to-r from-[#6841DA] to-[#8B5CF6] text-white py-12 md:py-16 lg:py-20">
+      <div className="bg-gradient-to-r from-[#30808E] to-[#4A9AA8] text-white py-12 md:py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 md:px-6">
           <a 
             href="/" 
@@ -29,8 +29,8 @@ export default function MentionsLegales() {
           {/* Section 1 : Éditeur */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Building2 className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Building2 className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Éditeur de l&apos;application</h2>
@@ -42,8 +42,8 @@ export default function MentionsLegales() {
               <p><span className="font-semibold text-gray-900">Siège social :</span> 35B rue Gustave Delory, 59000 Lille</p>
               <p><span className="font-semibold text-gray-900">Numéro d&apos;immatriculation :</span> 878 419 043</p>
               <p className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-[#6841DA]" />
-                <a href="mailto:contact@vide-and-go.com" className="text-[#6841DA] hover:underline font-medium">
+                <Mail className="w-4 h-4 text-[#30808E]" />
+                <a href="mailto:contact@vide-and-go.com" className="text-[#30808E] hover:underline font-medium">
                   contact@vide-and-go.com
                 </a>
               </p>
@@ -53,8 +53,8 @@ export default function MentionsLegales() {
           {/* Section 2 : Hébergement */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Server className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Server className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Hébergement</h2>
@@ -69,7 +69,7 @@ export default function MentionsLegales() {
                   href="https://www.hostinger.fr/contact" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-[#6841DA] hover:underline font-medium"
+                  className="text-[#30808E] hover:underline font-medium"
                 >
                   www.hostinger.fr/contact
                 </a>
@@ -80,8 +80,8 @@ export default function MentionsLegales() {
           {/* Section 3 : Propriété intellectuelle */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Shield className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Shield className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Propriété intellectuelle</h2>
@@ -99,8 +99,8 @@ export default function MentionsLegales() {
           {/* Section 4 : Données personnelles */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Shield className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Shield className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Gestion des données personnelles</h2>
@@ -114,7 +114,7 @@ export default function MentionsLegales() {
               </p>
               <p className="mt-3">
                 Voir la politique complète en rubrique{' '}
-                <a href="/confidentialite" className="text-[#6841DA] hover:underline font-semibold">
+                <a href="/confidentialite" className="text-[#30808E] hover:underline font-semibold">
                   "Politique de Confidentialité"
                 </a>.
               </p>
@@ -124,8 +124,8 @@ export default function MentionsLegales() {
           {/* Section 5 : Conditions d&apos;utilisation */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Scale className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Scale className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Conditions d&apos;utilisation</h2>
@@ -143,8 +143,8 @@ export default function MentionsLegales() {
           {/* Section 6 : Cookies */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Cookie className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Cookie className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Cookies et Traceurs</h2>
@@ -157,7 +157,7 @@ export default function MentionsLegales() {
               </p>
               <p className="mt-3">
                 Pour plus d&apos;informations, consultez notre{' '}
-                <a href="/cookies" className="text-[#6841DA] hover:underline font-semibold">
+                <a href="/cookies" className="text-[#30808E] hover:underline font-semibold">
                   Politique des Cookies
                 </a>.
               </p>
@@ -167,8 +167,8 @@ export default function MentionsLegales() {
           {/* Section 7 : Réclamations et litiges */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Mail className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Mail className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Réclamations et litiges</h2>
@@ -177,7 +177,7 @@ export default function MentionsLegales() {
             <div className="text-gray-700 leading-relaxed ml-16">
               <p className="mb-3">
                 Pour toute réclamation :{' '}
-                <a href="mailto:contact@vide-and-go.com" className="text-[#6841DA] hover:underline font-semibold">
+                <a href="mailto:contact@vide-and-go.com" className="text-[#30808E] hover:underline font-semibold">
                   contact@vide-and-go.com
                 </a>
               </p>
@@ -189,7 +189,7 @@ export default function MentionsLegales() {
           </section>
 
           {/* Note de bas de page */}
-          <div className="bg-gradient-to-r from-[#6841DA]/5 to-[#8B5CF6]/5 rounded-xl p-6 border border-[#6841DA]/10">
+          <div className="bg-gradient-to-r from-[#30808E]/5 to-[#4A9AA8]/5 rounded-xl p-6 border border-[#30808E]/10">
             <p className="text-sm text-gray-600 leading-relaxed">
               <span className="font-semibold text-gray-900">Note importante :</span> Ces mentions légales 
               suivent les obligations légales en France pour une application mobile et doivent être adaptées 

@@ -6,7 +6,7 @@ export default function Confidentialite() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Header avec gradient */}
-      <div className="bg-gradient-to-r from-[#6841DA] to-[#8B5CF6] text-white py-12 md:py-16 lg:py-20">
+      <div className="bg-gradient-to-r from-[#30808E] to-[#4A9AA8] text-white py-12 md:py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 md:px-6">
           <a 
             href="/" 
@@ -28,8 +28,8 @@ export default function Confidentialite() {
           {/* Section 1 : Responsable de traitement */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Shield className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Shield className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">1. Responsable de traitement</h2>
@@ -46,8 +46,8 @@ export default function Confidentialite() {
           {/* Section 2 : Données collectées */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Database className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Database className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">2. Données collectées</h2>
@@ -69,8 +69,8 @@ export default function Confidentialite() {
           {/* Section 3 : Finalités de la collecte */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <FileText className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <FileText className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">3. Finalités de la collecte</h2>
@@ -92,8 +92,8 @@ export default function Confidentialite() {
           {/* Section 4 : Durée de conservation */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Clock className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Clock className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">4. Durée de conservation</h2>
@@ -111,8 +111,8 @@ export default function Confidentialite() {
           {/* Section 5 : Destinataires */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Users className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Users className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">5. Destinataires</h2>
@@ -130,8 +130,8 @@ export default function Confidentialite() {
           {/* Section 6 : Droits des utilisateurs */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Shield className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Shield className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">6. Droits des utilisateurs</h2>
@@ -141,7 +141,7 @@ export default function Confidentialite() {
               <p>
                 Chaque utilisateur dispose d&apos;un droit d&apos;accès, de rectification, d&apos;opposition, d&apos;effacement 
                 et de portabilité sur ses données (articles 15 à 22 RGPD), en adressant une demande à :{' '}
-                <a href="mailto:contact@vide-and-go.com" className="text-[#6841DA] hover:underline font-semibold">
+                <a href="mailto:contact@vide-and-go.com" className="text-[#30808E] hover:underline font-semibold">
                   contact@vide-and-go.com
                 </a>
               </p>
@@ -151,7 +151,7 @@ export default function Confidentialite() {
                   href="https://www.cnil.fr" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-[#6841DA] hover:underline font-semibold"
+                  className="text-[#30808E] hover:underline font-semibold"
                 >
                   www.cnil.fr
                 </a>
@@ -162,8 +162,8 @@ export default function Confidentialite() {
           {/* Section 7 : Sécurité */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Lock className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Lock className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">7. Sécurité</h2>
@@ -180,8 +180,8 @@ export default function Confidentialite() {
           {/* Section 8 : Cookies et traceurs */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Cookie className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Cookie className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">8. Cookies et traceurs</h2>
@@ -198,8 +198,8 @@ export default function Confidentialite() {
           {/* Section 9 : Modifications */}
           <section className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="flex items-start gap-4 mb-4">
-              <div className="w-12 h-12 bg-[#6841DA]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Bell className="w-6 h-6 text-[#6841DA]" />
+              <div className="w-12 h-12 bg-[#30808E]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Bell className="w-6 h-6 text-[#30808E]" />
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">9. Modifications</h2>
