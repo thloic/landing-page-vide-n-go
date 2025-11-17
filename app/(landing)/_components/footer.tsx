@@ -117,7 +117,7 @@ export default function Footer() {
                 <Mail className="w-5 h-5 text-[#30808E] flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="text-xs text-gray-500 mb-1">Email</p>
-                  <a href="mailto:contact@vide-and-go.com" className="text-sm text-gray-700 hover:text-[#6841DA] transition-colors">
+                  <a href="mailto:contact@vide-and-go.com" className="text-sm text-gray-700 hover:text-[#30808E] transition-colors">
                     contact@vide-and-go.com
                   </a>
                 </div>

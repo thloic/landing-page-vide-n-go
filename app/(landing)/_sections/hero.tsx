@@ -168,7 +168,7 @@ const HeroRight = () => {
                 transition={{ duration: 1.5, delay: 0.8, repeat: Infinity, repeatType: "reverse" }}
             />
             <motion.div
-                className="absolute bottom-1/4 right-0 w-32 h-32 bg-[#6841DA] rounded-full mix-blend-multiply opacity-40 blur-xl hidden md:block"
+                className="absolute bottom-1/4 right-0 w-32 h-32 bg-[#30808E] rounded-full mix-blend-multiply opacity-40 blur-xl hidden md:block"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 0.4 }}
                 transition={{ duration: 2, delay: 1, repeat: Infinity, repeatType: "reverse" }}

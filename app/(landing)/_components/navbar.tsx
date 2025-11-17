@@ -55,7 +55,7 @@ export const Navbar = () => {
                   <Link
                     key={index}
                     href={link.href}
-                    className="block text-lg font-medium text-gray-800 hover:text-[#6841DA] transition-colors py-2 px-3 rounded-md hover:bg-gray-50"
+                    className="block text-lg font-medium text-gray-800 hover:text-[#30808E] transition-colors py-2 px-3 rounded-md hover:bg-gray-50"
                     onClick={() => setIsOpen(false)}
                   >
                     {link.item}
@@ -89,7 +89,7 @@ export const Navbar = () => {
               >
                 {link.item}
                 <motion.span
-                  className="absolute inset-x-0 bottom-0 h-0.5 bg-[#6841DA] origin-left"
+                  className="absolute inset-x-0 bottom-0 h-0.5 bg-[#30808E] origin-left"
                   initial={{ scaleX: 0 }}
                   whileHover={{ scaleX: 1 }}
                   transition={{ duration: 0.3 }}
