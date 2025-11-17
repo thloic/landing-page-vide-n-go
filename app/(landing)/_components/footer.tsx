@@ -43,7 +43,7 @@ export default function Footer() {
                   <Link
                     href={social.href}
                     aria-label={social.label}
-                    className="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-[#6841DA] hover:text-white hover:border-[#6841DA] transition-all duration-300 shadow-sm"
+                    className="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-[#30808E] hover:text-white hover:border-[#6841DA] transition-all duration-300 shadow-sm"
                   >
                     <motion.div
                       whileHover={{ scale: 1.1, y: -2 }}

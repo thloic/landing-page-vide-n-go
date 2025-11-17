@@ -20,7 +20,7 @@ const MaintenancePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#6841DA] via-[#8B5CF6] to-[#6841DA] flex items-center justify-center px-4 py-8">
+    <div className="min-h-screen bg-gradient-to-br from-[#30808E] via-[#4A9AA8] to-[#30808E] flex items-center justify-center px-4 py-8">
       <div className="max-w-2xl w-full">
         <motion.div
           className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 text-center"
@@ -30,7 +30,7 @@ const MaintenancePage = () => {
         >
           {/* Icône animée */}
           <motion.div
-            className="w-20 h-20 md:w-24 md:h-24 bg-[#6841DA] rounded-full flex items-center justify-center mx-auto mb-6"
+            className="w-20 h-20 md:w-24 md:h-24 bg-[#30808E] rounded-full flex items-center justify-center mx-auto mb-6"
             animate={{ rotate: [0, 10, -10, 0] }}
             transition={{
               duration: 2,
@@ -50,7 +50,7 @@ const MaintenancePage = () => {
             <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
               Vide n go
             </h1>
-            <h2 className="text-xl md:text-2xl font-semibold text-[#6841DA] mb-4">
+            <h2 className="text-xl md:text-2xl font-semibold text-[#30808E] mb-4">
               En cours de développement
             </h2>
             <p className="text-gray-600 text-base md:text-lg mb-8 leading-relaxed">
@@ -67,7 +67,7 @@ const MaintenancePage = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
           >
             <p className="text-gray-700 font-medium mb-4 flex items-center justify-center gap-2">
-              <Bell className="w-5 h-5 text-[#6841DA]" />
+              <Bell className="w-5 h-5 text-[#30808E]" />
               Soyez informé du lancement
             </p>
             
@@ -81,12 +81,12 @@ const MaintenancePage = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Votre email"
                     required
-                    className="w-full pl-10 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#6841DA] focus:outline-none transition-colors"
+                    className="w-full pl-10 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#30808E] focus:outline-none transition-colors"
                   />
                 </div>
                 <button
                   type="submit"
-                  className="bg-[#6841DA] hover:bg-[#5a38bb] text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                  className="bg-[#30808E] hover:bg-[#276b78] text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   Me notifier
                 </button>
