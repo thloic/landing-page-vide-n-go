@@ -3,7 +3,16 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Mail, User, MessageSquare, Send, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
+import {
+  ArrowLeft,
+  Mail,
+  User,
+  MessageSquare,
+  Send,
+  Loader2,
+  CheckCircle,
+  AlertCircle
+} from 'lucide-react';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -63,8 +72,8 @@ export default function ContactPage() {
       {/* Header */}
       <div className="bg-gradient-to-r from-[#30808E] to-[#30808E] text-white py-12 md:py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 md:px-6">
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
@@ -81,29 +90,51 @@ export default function ContactPage() {
 
       {/* Contenu principal */}
       <div className="max-w-4xl mx-auto px-4 md:px-6 py-12 md:py-16">
-          
-          <div className="md:col-span-1 space-y-6">
-            <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">Informations de contact</h2>
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <Mail className="w-5 h-5 text-[#30808E] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-sm text-gray-500">Email</p>
-                    <a href="mailto:contact@vide-and-go.com" className="text-gray-900 hover:text-[#6841DA] transition-colors">
-                      contact@vide-and-go.com
-                    </a>
-                  </div>
+        <div className="space-y-6">
+          <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Informations de contact</h2>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <Mail className="w-5 h-5 text-[#30808E] flex-shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-sm text-gray-500">Email</p>
+                  <a
+                    href="mailto:contact@vide-and-go.com"
+                    className="text-gray-900 hover:text-[#6841DA] transition-colors"
+                  >
+                    contact@vide-and-go.com
+                  </a>
                 </div>
               </div>
             </div>
-
-            {/* Suppression de compte */}
-           
           </div>
 
-         
+          {/* Section : Suppression de compte */}
+          <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Suppression de compte</h2>
+            <p className="text-gray-700 mb-4">
+              Vous pouvez demander la suppression de votre compte et de toutes les données associées à l’application <span className="font-semibold">Vide and Go</span> (éditée par RENT UP).
+            </p>
+            <p className="text-gray-700 mb-2">
+              <strong>Comment faire :</strong><br />
+              Envoyez un email à{' '}
+              <a href="mailto:contact@vide-and-go.com" className="text-[#30808E] hover:underline">
+                contact@vide-and-go.com
+              </a>{' '}
+              en indiquant votre nom, l’adresse email utilisée pour l’application, et la mention « Demande de suppression de mon compte et données associées ».
+            </p>
+            <p className="text-gray-700 mb-2">
+              <strong>Données supprimées :</strong><br />
+              Nom, prénom, email, numéro de téléphone, adresse ou localisation de collecte, historique des commandes et factures, photos transmises via l’app, messages internes.
+            </p>
+            
+            <p className="text-gray-700">
+              <strong>Délai de traitement :</strong><br />
+              Votre demande sera traitée sous <span className="font-semibold">30 jours ouvrables</span> à compter de sa réception.
+            </p>
+          </div>
         </div>
       </div>
+    </div>
   );
 }
