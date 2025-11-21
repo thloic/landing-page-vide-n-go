@@ -108,21 +108,24 @@ export default function Footer() {
           </div>
 
           {/* Colonne 4: Contact */}
-          <div>
+           <div>
             <h3 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b-2 border-[#30808E] inline-block">
               Nous contacter
             </h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-[#30808E] flex-shrink-0 mt-0.5" />
-                <div>
-                  <p className="text-xs text-gray-500 mb-1">Email</p>
-                  <a href="mailto:contact@vide-and-go.com" className="text-sm text-gray-700 hover:text-[#30808E] transition-colors">
-                    contact@vide-and-go.com
-                  </a>
-                </div>
-              </li>
-              
+            <ul className="space-y-3">
+              {[
+                { label: 'Cliquer ici', href: '/contact' },
+              ].map((link, index) => (
+                <li key={index}>
+                  <motion.a
+                    href={link.href}
+                    className="text-sm text-gray-600 hover:text-[#30808E] hover:pl-2 transition-all duration-200 inline-block"
+                    whileHover={{ x: 5 }}
+                  >
+                    {link.label}
+                  </motion.a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
