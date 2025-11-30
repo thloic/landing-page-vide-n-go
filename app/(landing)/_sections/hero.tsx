@@ -66,15 +66,20 @@ const HeroLeft = () => {
                         En savoir plus
                     </Button>
                 </Link>
-                <Link href="#telecharger">
-                    <Button
-                        variant={"primary"}
-                        size={"lg"}
-                        className="w-full sm:w-auto shadow-md hover:shadow-lg transition-shadow duration-300"
-                    >
-                        Télécharger l&apos;app
-                    </Button>
-                </Link>
+                <Link
+  href="https://play.google.com/store/apps/details?id=com.videngo.app"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+    <Button
+        variant="primary"
+        size="lg"
+        className="w-full sm:w-auto shadow-md hover:shadow-lg transition-shadow duration-300"
+    >
+        Télécharger l&apos;app
+    </Button>
+</Link>
+
             </motion.div>
 
             <HeroDL badgeVariants={badgeVariants} />
@@ -112,7 +117,7 @@ const HeroDL = ({ badgeVariants }: HeroDLProps) => {
                 variants={badgeVariants}
                 transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
             >
-                <Link href="/" className="cursor-pointer flex justify-center group">
+                <Link href="/maintenance" className="cursor-pointer flex justify-center group">
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }}>
                         <Image
                             src={"/appstore-badge.svg"}
@@ -123,7 +128,7 @@ const HeroDL = ({ badgeVariants }: HeroDLProps) => {
                         />
                     </motion.div>
                 </Link>
-                <Link href="/" className="cursor-pointer flex justify-center group">
+                <Link href="https://play.google.com/store/apps/details?id=com.videngo.app" className="cursor-pointer flex justify-center group">
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }}>
                         <Image
                             src={"/googleplay-badge.svg"}
