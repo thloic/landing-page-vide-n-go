@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
     return (
-        <section className="w-full flex items-center min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-100px)] px-4 md:px-6 lg:px-8 relative overflow-hidden">
+        <section aria-label="Présentation" className="w-full flex items-center min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-100px)] px-4 md:px-6 lg:px-8 relative overflow-hidden">
             <div className="w-full max-w-screen-xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-12 md:gap-16 lg:gap-20 py-12 md:py-16 lg:pt-20 lg:pb-12">
                 <HeroLeft />
                 <HeroRight />
@@ -66,19 +66,15 @@ const HeroLeft = () => {
                         En savoir plus
                     </Button>
                 </Link>
-                <Link
-  href="https://play.google.com/store/apps/details?id=com.videngo.app"
-  target="_blank"
-  rel="noopener noreferrer"
->
-    <Button
-        variant="primary"
-        size="lg"
-        className="w-full sm:w-auto shadow-md hover:shadow-lg transition-shadow duration-300"
-    >
-        Télécharger l&apos;app
-    </Button>
-</Link>
+                <Link href="#telecharger">
+                    <Button
+                        variant="primary"
+                        size="lg"
+                        className="w-full sm:w-auto shadow-md hover:shadow-lg transition-shadow duration-300"
+                    >
+                        Télécharger l&apos;app
+                    </Button>
+                </Link>
 
             </motion.div>
 
@@ -117,7 +113,7 @@ const HeroDL = ({ badgeVariants }: HeroDLProps) => {
                 variants={badgeVariants}
                 transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
             >
-                <Link href="/maintenance" className="cursor-pointer flex justify-center group">
+                <Link href="https://apps.apple.com/bj/app/vide-n-go-d%C3%A9barras-pro/id6757605801" target="_blank" rel="noopener noreferrer" className="cursor-pointer flex justify-center group">
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }}>
                         <Image
                             src={"/appstore-badge.svg"}
@@ -168,12 +164,14 @@ const HeroRight = () => {
             />
             <motion.div
                 className="absolute top-1/4 left-0 w-24 h-24 bg-[#FFF8A6] rounded-full mix-blend-multiply opacity-50 blur-xl hidden md:block"
+                aria-hidden="true"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 0.5 }}
                 transition={{ duration: 1.5, delay: 0.8, repeat: Infinity, repeatType: "reverse" }}
             />
             <motion.div
                 className="absolute bottom-1/4 right-0 w-32 h-32 bg-[#30808E] rounded-full mix-blend-multiply opacity-40 blur-xl hidden md:block"
+                aria-hidden="true"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 0.4 }}
                 transition={{ duration: 2, delay: 1, repeat: Infinity, repeatType: "reverse" }}

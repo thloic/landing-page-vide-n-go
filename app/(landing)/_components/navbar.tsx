@@ -61,7 +61,7 @@ export const Navbar = () => {
                     {link.item}
                   </Link>
                 ))}
-                <Link href="/" onClick={() => setIsOpen(false)} className="mt-4 pt-4 border-t border-gray-100">
+                <Link href="#telecharger" onClick={() => setIsOpen(false)} className="mt-4 pt-4 border-t border-gray-100">
                   <Button variant="primary" size="lg" className="w-full">
                     Télécharger
                   </Button>
@@ -99,7 +99,7 @@ export const Navbar = () => {
           </div>
 
           {/* Bouton */}
-          <Link href="/">
+          <Link href="#telecharger">
             <Button variant="primary" size="lg" className="shadow-md hover:shadow-lg transition-shadow duration-300">
               Télécharger
             </Button>
